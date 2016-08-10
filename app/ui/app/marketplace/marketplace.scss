@@ -50,8 +50,20 @@
       font-size: 50px;
     }
 
+    .tags {
+      padding-top: 15px;
+      clear: left;
+      font-size: 12px;
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      span {
+        margin: 3px;
+      }
+    }
+
     > a {
-      display: block; 
+      display: block;
       border: 1px solid #dddddd;
       color: $btn-primary-color;
       padding: 25px 20px;
