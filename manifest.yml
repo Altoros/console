@@ -7,24 +7,24 @@ applications:
     buildpack: nodejs_buildpack
     services:
       - user-management
-      - datacatalog
+      # - datacatalog
       - servicecatalog
-      - dataaquisitionservice
+      # - dataaquisitionservice
       - metrics-provider
-      - router-metrics-provider
+      # - router-metrics-provider
       - platformcontext
-      - app-launcher-helper
+      # - app-launcher-helper
       - sso
-      - datacatalogexport
-      - latest-events-service
-      - hdfs-uploader
-      - service-exposer
-      - platform-operations
-      - model-catalog
-      - h2o-model-publisher
-      - platform-snapshot
-      - workflow-scheduler
-      - platform-tests
+      # - datacatalogexport
+      # - latest-events-service
+      # - hdfs-uploader
+      # - service-exposer
+      # - platform-operations
+      # - model-catalog
+      # - h2o-model-publisher
+      # - platform-snapshot
+      # - workflow-scheduler
+      # - platform-tests
     env:
       NPM_CONFIG_PRODUCTION: true
       VERSION: dev

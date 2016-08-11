@@ -37,16 +37,16 @@ spinner(ng-show='state.isPending()')
     tile-blue-numeric(number="data.domainsUsage", text="'Domains usage'",
       link="#/app/applications").col-lg-4.col-sm-6.tile-height-large
 
-    .col-md-4.left-col
-        .category-title Data
-        tile-blue-numeric(number="data.datasetCount", text="'Datasets count'",
-            link="#/app/datacatalog/datasets").tile-height-small
-        tile-blue-numeric(number="data.privateDatasets", text="'Private datasets'",
-            link="#/app/datacatalog/datasets").tile-height-small
-        tile-blue-numeric(number="data.publicDatasets", text="'Public datasets'",
-            link="#/app/datacatalog/datasets").tile-height-small
+    //- .col-md-4.left-col
+    //-     .category-title Data
+    //-     tile-blue-numeric(number="data.datasetCount", text="'Datasets count'",
+    //-         link="#/app/datacatalog/datasets").tile-height-small
+    //-     tile-blue-numeric(number="data.privateDatasets", text="'Private datasets'",
+    //-         link="#/app/datacatalog/datasets").tile-height-small
+    //-     tile-blue-numeric(number="data.publicDatasets", text="'Public datasets'",
+    //-         link="#/app/datacatalog/datasets").tile-height-small
 
-    .col-md-8
+    .col-md-12
         .category-title Other
         tile-news(events="data.latestEvents", link="#/app/events")
 

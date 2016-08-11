@@ -38,33 +38,38 @@
             "text": "Dashboard",
             "sref": "app.dashboard",
             "icon": "icon-speedometer"
-        }, {
-            "text": "Data catalog",
-            "sref": "app.datacatalog",
-            "icon": "icon-folder-alt"
-        }, {
-            "text": "Model catalog",
-            "sref": "app.modelcatalog",
-            "icon": "icon-folder-alt",
-            "tool": "h2o"
-        }, {
-            "text": "Job Scheduler",
-            "icon": "icon-hourglass",
-            "items": [
-                {
-                    "text": "Import data",
-                    "sref": "app.jobsscheduler.importdata.fromdatabase"
-                },
-                {
-                    "text": "Job browser",
-                    "sref": "app.jobsscheduler.jobs.workflowjobs"
-                }
-            ]
-        }, {
+        },
+        // {
+        //     "text": "Data catalog",
+        //     "sref": "app.datacatalog",
+        //     "icon": "icon-folder-alt"
+        // },
+        // {
+        //     "text": "Model catalog",
+        //     "sref": "app.modelcatalog",
+        //     "icon": "icon-folder-alt",
+        //     "tool": "h2o"
+        // },
+        // {
+        //     "text": "Job Scheduler",
+        //     "icon": "icon-hourglass",
+        //     "items": [
+        //         {
+        //             "text": "Import data",
+        //             "sref": "app.jobsscheduler.importdata.fromdatabase"
+        //         },
+        //         {
+        //             "text": "Job browser",
+        //             "sref": "app.jobsscheduler.jobs.workflowjobs"
+        //         }
+        //     ]
+        // },
+        {
             "text": "Applications",
             "sref": "app.applications",
             "icon": "icon-grid"
-        }, {
+        },
+        {
             "text": "Services",
             "icon": "icon-bag",
             "items": [
@@ -80,38 +85,40 @@
             "text": "App Development",
             "icon": "fa-building",
             "sref": "app.appcli"
-        },{
-            "text": "Data Science",
-            "id": "datascience",
-            "icon": "icon-wrench",
-            "items": [
-                {
-                    "text": "TAP Analytics Toolkit",
-                    "sref": "app.datatools"
-                },  {
-                    "text": "IPython",
-                    "sref": "app.ipython",
-                    "tool": 'ipython'
-                }, {
-                    "text": "Jupyter",
-                    "sref": "app.jupyter",
-                    "tool": "jupyter"
-                },  {
-                    "text": "RStudio®",
-                    "sref": "app.rstudio",
-                    "tool": "rstudio"
-                }, {
-                    "text": "H2O",
-                    "sref": "app.h2o",
-                    "tool": "h2o"
-                }, {
-                    "text": "Apache Gearpump",
-                    "sref": "app.gearpump",
-                    "tool": "gearpump"
-                }
+        },
+        // {
+        //     "text": "Data Science",
+        //     "id": "datascience",
+        //     "icon": "icon-wrench",
+        //     "items": [
+        //         {
+        //             "text": "TAP Analytics Toolkit",
+        //             "sref": "app.datatools"
+        //         },  {
+        //             "text": "IPython",
+        //             "sref": "app.ipython",
+        //             "tool": 'ipython'
+        //         }, {
+        //             "text": "Jupyter",
+        //             "sref": "app.jupyter",
+        //             "tool": "jupyter"
+        //         },  {
+        //             "text": "RStudio®",
+        //             "sref": "app.rstudio",
+        //             "tool": "rstudio"
+        //         }, {
+        //             "text": "H2O",
+        //             "sref": "app.h2o",
+        //             "tool": "h2o"
+        //         }, {
+        //             "text": "Apache Gearpump",
+        //             "sref": "app.gearpump",
+        //             "tool": "gearpump"
+        //         }
 
-            ]
-        }, {
+        //     ]
+        // },
+        {
             "text": "User management",
             "icon": "icon-people",
             "items": [
@@ -134,10 +141,11 @@
                 }
             ],
             "access": ["admin", "anyOrgManager"]
-        }, {
-            "text": "Event Log",
-            "sref": "app.latestevents",
-            "icon": "icon-book-open"
-        }
+        } //,
+        // {
+        //     "text": "Event Log",
+        //     "sref": "app.latestevents",
+        //     "icon": "icon-book-open"
+        // }
     ]);
 })();
