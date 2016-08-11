@@ -23,6 +23,8 @@ var debug = require('debug')('console:server');
 var http = require('http');
 var proxy = require('./utils/http-proxy');
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 /**
  * Get port from environment and store in Express.
  */
