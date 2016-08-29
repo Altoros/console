@@ -28,8 +28,9 @@
 
             .placeholder(ng-if='!ctrl.service.image')
                 span.fa.fa-cogs
-
-            | {{ ctrl.service.description }}
+            
+            p.description
+                | {{ ctrl.service.description }}
 
             .pull-right(ng-if='ctrl.deletable')
                 button.btn.btn-danger(ng-click='ctrl.tryDeleteOffering()')
