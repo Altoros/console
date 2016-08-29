@@ -37,7 +37,7 @@ app.use(timeout(config.get('timeout')));
 app.use(cookieParser());
 app.use(timeoutHandler);
 app.use(compression());
-app.use(favicon(path.join(staticFilesDir, 'app/img/favicon.png')));
+app.use(favicon(path.join(staticFilesDir, 'app/img/favicon.ico')));
 app.disable('x-powered-by');
 
 auth.init(app);
