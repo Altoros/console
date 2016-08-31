@@ -15,6 +15,7 @@
  */
 .navbar {
   background-color: $header-background-color;
+  border-bottom: 1px solid $header-item-border;
 
   .navbar-header {
     background-color: transparent;

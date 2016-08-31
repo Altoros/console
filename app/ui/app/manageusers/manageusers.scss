@@ -122,6 +122,10 @@
   }
 
   .new-space-form > input {
+    color: $light;
+    background-color: lighten($dark-one, 5%);
+    border: 1px solid darken($dark-one, 50%);
+    border-radius: 0;
     height: 33px;
     vertical-align: middle;
     padding: 5px;

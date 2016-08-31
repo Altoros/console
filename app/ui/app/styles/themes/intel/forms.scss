@@ -27,14 +27,31 @@
 }
 
 .btn-primary {
-  background-color: $btn-primary-color;
-  color: #fff;
+  background-color: $dark-two !important;
+  color: $cyan !important;
+  border: 1px solid darken($btn-primary-color, 25%) !important;
 
   &:hover, &:active {
-    background-color: darken($btn-primary-color, 10%);
+    background-color: darken($btn-primary-color, 25%) !important;
+    border: 1px solid darken($btn-primary-color, 25%) !important;
   }
 }
 
+.btn-default {
+  background-color: $dark-two !important;
+  color: $cyan !important;
+  border: 1px solid darken($btn-primary-color, 25%) !important;
+
+  &:hover, &:active {
+    background-color: darken($btn-primary-color, 25%) !important;
+    border: 1px solid darken($btn-primary-color, 25%) !important;
+  }
+}
+
+select.form-control,
 input.form-control {
+  color: $light;
+  background-color: lighten($dark-one, 5%);
+  border: 1px solid darken($dark-one, 50%);
   border-radius: 0;
 }

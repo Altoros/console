@@ -13,47 +13,53 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-$intel-blue: #0076c7;
 
-$body-background-color: #0062a8;
+$dark-one: #2F3139;
+$dark-two: #576079;
+$light: #F7F7F7;
+$purple: #9F93DC;
+$cyan: #259FD9;
 
-$sidebar-item-color-active: #89e4ff;
-$sidebar-item-bg-hover: #67a7de;
-$sidebar-bg-active: #0064aa;
-$sidebar-bg-expand: #0076c7;
-$text-color: #fff;
-$icon-color: #fff;
+$intel-blue: $cyan;
+$body-background-color: $dark-one;
+
+$sidebar-item-color-active: $cyan;
+$sidebar-item-bg-hover: $dark-one;
+$sidebar-bg-active: darken($dark-one, 50%);
+$sidebar-bg-expand: $dark-one;
+$text-color: lighten($dark-two, 40%);
+$icon-color: lighten($dark-two, 40%);
 $font-family: 'Intel Clear W';
 
-$text-color-blue: #2f72be;
+$text-color-blue: $cyan;
 
-$header-background-color: #0076c7;
-$header-item: #fff;
-$header-item-active-color: #1C5FA6;
-$header-item-border: #174E8F;
-$header-user-email-color: #98DEFE;
+$header-background-color: $dark-one;
+$header-item: $light;
+$header-item-active-color: $cyan;
+$header-item-border: $dark-two;
+$header-user-email-color: $cyan;
 
-$header-org-space-bg-color: #0e1d2e;
-$header-org-space-text-label-color: #89e4ff;
-$header-org-space-button-bg-color: rgba(255, 255, 255, 0.1);
-$header-org-space-button-text-color: #fff;
+$header-org-space-bg-color: $dark-one;
+$header-org-space-text-label-color: $cyan;
+$header-org-space-button-bg-color: $dark-two;
+$header-org-space-button-text-color: $light;
 
-$sidebar-bg: $intel-blue;
+$sidebar-bg: $light;
 $sidebar-open-bg: $sidebar-bg;
-$sidebar-item-color: #fff;
+$sidebar-item-color: lighten($dark-two, 40%);
 $sidebar-item-bg-active: $sidebar-bg-active;
 
 $sidebar-icon-color: $icon-color;
 $sidebar-icon-color-active: $sidebar-item-color-active;
 $sidebar-heading-color: $sidebar-item-color-active;
 
-$footer-border-color: #ffffff;
+$footer-border-color: $light;
 
 $color-error: #DD0D2F;
 $color-cookies: #F09E00;
 
 $panel-blue-color: $btn-primary-color;
-$panel-border-color: #D3DAF5;
-$panel-heading-text-color: #fff;
+$panel-border-color: $dark-two;
+$panel-heading-text-color: $light;
 $panel-heading-color: $header-background-color;
-$panel-button-group-border: #adadad;
+$panel-button-group-border: $dark-two;

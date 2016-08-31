@@ -13,12 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-$text-color-gray-darker: #53565b;
-$text-color-gray: #595959;
 
-$btn-primary-color: #1C72C5;
+$dark-one: #2F3139;
+$dark-two: #576079;
+$light: #F7F7F7;
+$purple: #9F93DC;
+$cyan: #259FD9;
+
+$text-color-gray-darker: darken($dark-two, 30%);;
+$text-color-gray: lighten($dark-two, 30%);;
+
+$btn-primary-color: $dark-two;
 $btn-yellow-color: #FBDE2A;
-$icon-grey-color: #5B657C;
+$icon-grey-color: lighten($dark-two, 30%);
 
 $color-green: #A6CC43;
 $color-red: #DD1031;
