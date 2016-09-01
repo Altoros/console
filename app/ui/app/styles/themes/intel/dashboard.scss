@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 $dashboard-text-blue: $text-color-blue;
-$dashboard-text-white: #fff;
-$dashboard-text-gray: $text-color-gray;
-$dashboard-text-gray-darker: #53565b;
+$dashboard-text-purple: $purple;
+$dashboard-text-white: $light;
+$dashboard-text-gray: $dark-two;
+$dashboard-text-gray-darker: $dark-one;
 
 $dashboard-orange: #F4B92F;
 $dashboard-green: #A6CC43;
@@ -47,25 +48,25 @@ $dashboard-red: #DD1031;
     }
 
     &.white-tile-small {
-      background-color: #fff;
+      background-color: $dark-one;
 
       .number {
         font-size: 35px;
         font-weight: lighter;
-        color: $dashboard-text-blue;
+        color: $dashboard-text-purple;
         letter-spacing: -1px;
       }
 
       .text {
         font-size: 13px;
-        color: $dashboard-text-gray;
+        color: $light;
       }
     }
 
     &.tile-chart {
 
       .title {
-        color: $dashboard-text-gray;
+        color: $light;
         font-size: 18px;
       }
     }
@@ -84,12 +85,12 @@ $dashboard-red: #DD1031;
       }
 
       tr:nth-child(even) {
-        background: #F8F8F8;
+        background: $dark-one;
       }
     }
 
     &.tile-progress {
-      background-color: #fff;
+      background-color: $dark-one;
 
       .value {
         font-size: 45px;
@@ -99,13 +100,13 @@ $dashboard-red: #DD1031;
 
       .title {
         font-size: 14px;
-        color: $dashboard-text-gray-darker;
+        color: $light;
       }
 
     }
 
     .progress {
-      background-color: #B2B9BF;
+      background-color: $dark-two;
     }
 
   }

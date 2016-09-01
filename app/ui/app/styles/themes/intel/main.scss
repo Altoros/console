@@ -28,7 +28,7 @@ body {
 }
 
 a, a:active, a:hover {
-  color: $text-color-blue;
+  color: $purple;
 }
 
 h4 {
@@ -70,9 +70,10 @@ h4 {
 }
 
 .panel {
-  border: 1px solid #EBEBEB;
+  background-color: $dark-one;
+  border: 1px solid $dark-one;
   border-radius: 0;
-  box-shadow: 5px 5px rgba(32, 32, 32, 0.1);
+  box-shadow: 0 0 rgba(32, 32, 32, 0.1);
   color: $text-color-gray;
 
   .btn {
@@ -82,26 +83,50 @@ h4 {
 }
 
 .panel-blue {
-  background-color: $panel-blue-color;
-  color: #fff;
+  background-color: $purple;
+  color: $light;
   border: none;
 
   .btn {
     background-color: $btn-yellow-color;
-    color: $panel-blue-color;
+    color: $purple;
 
     &:hover, &:active {
       background-color: darken($btn-yellow-color, 10%);
-      color: $panel-blue-color;
+      color: $purple;
     }
   }
 }
 
 .table .table {
-  background-color: #fff;
+  color: $light;
+  background-color: $dark-one;
+  
+  thead > tr > th {
+    border-color: lighten($dark-one, 10%);
+  }
+
+  thead > tr > th.sortable.sort-desc,
+  thead > tr > th.sortable.sort-asc, {
+    background-color: lighten($dark-one, 10%);
+    text-shadow: none;
+  }
+
+  thead > tr > th.sortable .sort-indicator:after,
+  thead > tr > th.sortable .sort-indicator:before {
+    border-color: $light transparent;
+  }
 
   tbody > tr:nth-child(odd) {
-    background-color: #F8F8F8;
+    background-color: lighten($dark-one, 10%);
+  }
+
+  .table > tbody > tr > td {
+    border-bottom: 1px solid lighten($dark-one, 10%);
+    border-top: 1px solid lighten($dark-one, 10%);
+  }
+  tbody > tr:last-child > td {
+    border-bottom: 0 solid lighten($dark-one, 10%);
   }
 }
 

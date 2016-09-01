@@ -33,10 +33,10 @@
                 },
                 grid: {
                     x: {
-                        show: true
+                        show: false
                     },
                     y: {
-                        show: true
+                        show: false
                     }
                 },
                 point: {
@@ -44,6 +44,9 @@
                 },
                 legend: {
                     show: false
+                },
+                color: {
+                    pattern: ['#9F93DC', '#259FD9']
                 }
             };
         }

@@ -20,9 +20,11 @@ nav {
 .sidebar {
 
   > .nav {
-    padding-top: 11px;
+    padding-top: 0;
 
     > li {
+      border-bottom: 1px solid lighten($dark-two, 40%);
+
       > a {
         color: $sidebar-item-color;
 
@@ -56,6 +58,7 @@ nav {
         &.active.expand {
           background-color: $sidebar-bg-expand;
           color: $text-color;
+          border-bottom: 1px solid lighten($dark-two, 40%);
            > em {
              color: $icon-color;
            }
@@ -78,6 +81,16 @@ nav {
   }
 
   > li {
+    border-bottom: 1px solid lighten($dark-two, 40%);
+
+    &:first-child {
+      border-top: 1px solid lighten($dark-two, 40%);
+      border-bottom: 1px solid lighten($dark-two, 40%);
+    }
+    &:last-child {
+      border-bottom: 0 solid lighten($dark-two, 40%);
+    }
+
     > a,
     > .nav-item {
       color: $sidebar-item-color;

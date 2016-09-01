@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-$tab-color: #1B71C4;
+$tab-color: $dark-one;
 
 .nav-tabs {
   border: none;
@@ -25,7 +25,7 @@ $tab-color: #1B71C4;
       background-color: $tab-color;
       border: none;
       border-radius: 0;
-      color: #fff;
+      color: $cyan;
       font-size: 24px;
       font-weight: lighter;
       padding-left: 50px;
@@ -42,7 +42,7 @@ $tab-color: #1B71C4;
     }
 
     &.active > a, &.active > a:hover, &.active > a:focus {
-      background-color: #fff;
+      background-color: $cyan;
       border: none;
       color: $tab-color;
       cursor: default;
@@ -51,9 +51,9 @@ $tab-color: #1B71C4;
 }
 
 .tabcontent, .content {
-  background-color: #fff;
+  background-color: $dark-one;
   padding: 30px;
-  color: $text-color-gray-darker;
+  color: $light;
   h3 {
     padding: 0;
     margin: 0 0 20px;
