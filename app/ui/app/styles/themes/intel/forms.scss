@@ -32,15 +32,15 @@
   border: 1px solid darken($btn-primary-color, 25%) !important;
 
   &:hover, &:active {
-    background-color: darken($btn-primary-color, 25%) !important;
-    border: 1px solid darken($btn-primary-color, 25%) !important;
+    background-color: #2F3139 !important;
+    border: 1px solid #F1F1F1 !important;
   }
 }
 
 .btn-default {
-  background-color: $dark-two !important;
-  color: $cyan !important;
-  border: 1px solid darken($btn-primary-color, 25%) !important;
+  background-color: $dark-one !important;
+  color: #F1EEF2 !important;
+  border: 1px solid #22252f !important;
 
   &:hover, &:active {
     background-color: darken($btn-primary-color, 25%) !important;

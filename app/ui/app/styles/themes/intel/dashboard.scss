@@ -31,6 +31,11 @@ $dashboard-red: #DD1031;
   }
 
   .widget {
+    background-color: #2e3138 !important;
+    
+    &.panel.tile-chart {
+      background-color: $dark-one !important;
+    }
 
     &.blue-tile {
       background-color: $intel-blue;
@@ -42,32 +47,37 @@ $dashboard-red: #DD1031;
       }
 
       .number {
-        font-size: 45px;
+        text-align: right;
+        width: 1px;
+        white-space: nowrap;
+        color: #DCABFC;
+        // font-size: 45px;
       }
-
     }
 
     &.white-tile-small {
       background-color: $dark-one;
 
       .number {
-        font-size: 35px;
-        font-weight: lighter;
-        color: $dashboard-text-purple;
+        font-size: 40px;
+        font-weight: normal;
+        color: #DCABFC;
         letter-spacing: -1px;
       }
 
       .text {
-        font-size: 13px;
-        color: $light;
+        font-size: 16px;
+        color: #F7F7F7;
+        font-weight: inherit;
       }
     }
 
     &.tile-chart {
 
       .title {
-        color: $light;
+        color: #F7F7F7;
         font-size: 18px;
+        font-weight: inherit;
       }
     }
 
@@ -119,9 +129,9 @@ $dashboard-red: #DD1031;
   }
 
   .dashboard-green {
-    color: $dashboard-green;
+    color: #DCABFC;
     .progress-bar {
-      background-color: $dashboard-green;
+      background-color: #151617;
     }
   }
 

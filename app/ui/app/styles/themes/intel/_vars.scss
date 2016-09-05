@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-$dark-one: #2F3139;
+$dark-one: #151617;
 $dark-two: #576079;
 $light: #F7F7F7;
 $purple: #9F93DC;
@@ -23,7 +23,7 @@ $cyan: #259FD9;
 $intel-blue: $cyan;
 $body-background-color: $dark-one;
 
-$sidebar-item-color-active: $cyan;
+$sidebar-item-color-active: #DCABFC;
 $sidebar-item-bg-hover: $dark-one;
 $sidebar-bg-active: darken($dark-one, 50%);
 $sidebar-bg-expand: $dark-one;
@@ -36,11 +36,11 @@ $text-color-blue: $cyan;
 $header-background-color: $dark-one;
 $header-item: $light;
 $header-item-active-color: $cyan;
-$header-item-border: $dark-two;
-$header-user-email-color: $cyan;
+$header-item-border: #F1EEF2;
+$header-user-email-color: #DCABFC;
 
 $header-org-space-bg-color: $dark-one;
-$header-org-space-text-label-color: $cyan;
+$header-org-space-text-label-color: #DCABFC;
 $header-org-space-button-bg-color: $dark-two;
 $header-org-space-button-text-color: $light;
 

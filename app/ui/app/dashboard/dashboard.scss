@@ -47,11 +47,17 @@ $dashboard-tile-margin: 20px;
       a {
         cursor: default;
         text-decoration: none;
+
+        &:hover,
+        &:active {
+          color: #F1F1F1;
+          font-size: 16px;
+          font-weight: inherit;
+        }
       }
       a[href] {
         cursor: pointer;
       }
-
 
       .text {
         padding-left: 25px;
@@ -63,7 +69,7 @@ $dashboard-tile-margin: 20px;
         text-align: right;
         width: 1px;
         white-space: nowrap;
-        color: white;
+        color: #DCABFC;
       }
 
     }

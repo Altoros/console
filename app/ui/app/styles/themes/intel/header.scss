@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 .navbar {
-  background-color: $header-background-color;
-  border-bottom: 1px solid $header-item-border;
+  background-color: #2F3139;
+  border-bottom: 1px solid #2F3139;
 
   .navbar-header {
     background-color: transparent;
@@ -37,8 +37,8 @@
         color: $header-item;
 
         &:hover, &:focus {
-          background-color: $header-item-active-color;
-          color: $header-item;
+          background-color:#F7F7F7;
+          color: #000;
         }
       }
     }
