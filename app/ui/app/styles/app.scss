@@ -42,6 +42,11 @@
 @import "../documentation/documentation";
 @import "../version/version";
 
+.icon-speedometer:before {
+  content: "\e007";
+  color: #DCABFC;
+}
+
 @media screen and (max-width: 768px) {
   .page-box {
     flex-direction: column;

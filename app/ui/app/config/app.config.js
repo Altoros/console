@@ -17,7 +17,7 @@
     "use strict";
 
     App.constant('AppConfig', {
-        company: 'Intel Corporation',
+        company: 'Altoros Americas LLC',
         name: 'Trusted Analytics',
         description: 'Developer console for Trusted Analytics platform',
 

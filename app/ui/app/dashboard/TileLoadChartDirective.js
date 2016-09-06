@@ -36,7 +36,7 @@
                         show: false
                     },
                     y: {
-                        show: false
+                        show: true
                     }
                 },
                 point: {

@@ -71,10 +71,23 @@ h4 {
 
 .panel {
   background-color: $dark-one;
-  border: 1px solid $dark-one;
+  border: 0px solid $dark-one;
   border-radius: 0;
   box-shadow: 0 0 rgba(32, 32, 32, 0.1);
   color: $text-color-gray;
+  
+  .c3 line, .c3 path.domain, .c3 text {
+    stroke: lighten(#2e3138, 40%) !important;
+  }
+
+  .c3 line {
+    fill: none !important;
+    stroke: transparent !important;
+  }
+
+  .c3 text {
+    font-weight: normal !important;
+  }
 
   .btn {
     border: none;
