@@ -51,7 +51,7 @@
 select.form-control,
 input.form-control {
   color: $light;
-  background-color: lighten($dark-one, 5%);
-  border: 1px solid darken($dark-one, 50%);
+  background-color: #576079;
+  border: 1px solid white;
   border-radius: 0;
 }
