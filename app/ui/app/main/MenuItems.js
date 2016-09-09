@@ -141,6 +141,11 @@
                 }
             ],
             "access": ["admin", "anyOrgManager"]
+        },
+        {
+            "text": "Logs",
+            "icon": "icon-book-open",
+            "external": "logs",
         } //,
         // {
         //     "text": "Event Log",

@@ -23,6 +23,7 @@
         $scope.selected = null;
         $scope.tools = [];
         $scope.organizations = targetProvider.getOrganizations();
+        $scope.platformInfo = {};
 
         function updateExternalTools() {
             getExternalTools(PlatformContextProvider, targetProvider, $scope);
@@ -92,6 +93,15 @@
         };
 
         $scope.clickOnMenu = function (item, event) {
+            if (item.hasOwnProperty("external")) {
+                var visualizations = $scope.platformInfo.external_tools.visualizations,
+                    externalItem   = _.find(visualizations, function(eItem) { return eItem.name === item.external; } );
+
+                $window.open(externalItem.url);
+                event.stopPropagation();
+                return;
+            }
+
             if (!item.hasOwnProperty("items")) {
                 $scope.selected = item;
             }
@@ -104,6 +114,11 @@
             $scope.toggleCollapse();
             event.stopPropagation();
         };
+
+        PlatformContextProvider.getPlatformContext()
+            .then(function (response) {
+                $scope.platformInfo = response;
+            });
     });
 
     function hasAccess(accessRestrictions, accessGranted) {
