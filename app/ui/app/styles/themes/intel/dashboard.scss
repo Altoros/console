@@ -31,7 +31,7 @@ $dashboard-red: #DD1031;
   }
 
   .widget {
-    background-color: #2e3138 !important;
+    background-color: #322845 !important;
     
     &.panel.tile-chart {
       background-color: $dark-one !important;
@@ -51,7 +51,8 @@ $dashboard-red: #DD1031;
         width: 1px;
         white-space: nowrap;
         color: #DCABFC;
-        // font-size: 45px;
+        font-size: 38px;
+        font-weight: 400;
       }
     }
 
@@ -66,7 +67,7 @@ $dashboard-red: #DD1031;
       }
 
       .text {
-        font-size: 16px;
+        font-size: 24px;
         color: #F7F7F7;
         font-weight: inherit;
       }
@@ -86,7 +87,7 @@ $dashboard-red: #DD1031;
       .title {
         font-size: 24px;
         font-weight: lighter;
-        color: $dashboard-text-gray-darker;
+        color: $light;
       }
 
       tr {
@@ -109,7 +110,7 @@ $dashboard-red: #DD1031;
       }
 
       .title {
-        font-size: 14px;
+        font-size: 20px;
         color: $light;
       }
 
@@ -139,6 +140,12 @@ $dashboard-red: #DD1031;
     color: $dashboard-red;
     .progress-bar {
       background-color: $dashboard-red;
+    }
+  }
+  .dashboard-pink {
+    color: #DCABFC;
+    .progress-bar {
+      background-color: #DCABFC;
     }
   }
 }

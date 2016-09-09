@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-$dark-one: #151617;
+$dark-one: #232360;
 $dark-two: #576079;
 $light: #F7F7F7;
 $purple: #9F93DC;
@@ -25,7 +25,7 @@ $body-background-color: $dark-one;
 
 $sidebar-item-color-active: #DCABFC;
 $sidebar-item-bg-hover: $dark-one;
-$sidebar-bg-active: darken($dark-one, 50%);
+$sidebar-bg-active: #5E3A7D;
 $sidebar-bg-expand: $dark-one;
 $text-color: lighten($dark-two, 40%);
 $icon-color: lighten($dark-two, 40%);
@@ -33,7 +33,7 @@ $font-family: 'Intel Clear W';
 
 $text-color-blue: $cyan;
 
-$header-background-color: $dark-one;
+$header-background-color: #5E3A7D;
 $header-item: $light;
 $header-item-active-color: $cyan;
 $header-item-border: #F1EEF2;
