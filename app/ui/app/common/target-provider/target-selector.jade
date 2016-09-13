@@ -22,7 +22,7 @@
             | {{ organization.selected.name }}
             span.caret
 
-         ul.dropdown-menu.dropdown-menu-right.animated.fadeInUpShort(role='menu', target-selector-dropdown)
+         ul.dropdown-menu.dropdown-menu-left.animated.fadeInUpShort(role='menu', target-selector-dropdown)
             li(ng-repeat='org in organization.available')
                a(ng-click='organization.set(org, $event)') {{ org.name }}
 
