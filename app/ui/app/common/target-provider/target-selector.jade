@@ -15,6 +15,16 @@
 //-
 
 .target-container
+   .group-section(ng-if="targetHeader.org")
+      label Organization:
+      .btn-group(uib-dropdown='' is-open='organization.listIsOpen')
+         button.btn.btn-default.org-button(type='button', uib-dropdown-toggle="", ng-disabled="!organization.available.length")
+            | {{ organization.selected.name }}
+            span.caret
+
+         ul.dropdown-menu.dropdown-menu-right.animated.fadeInUpShort(role='menu', target-selector-dropdown)
+            li(ng-repeat='org in organization.available')
+               a(ng-click='organization.set(org, $event)') {{ org.name }}
 
    .group-section(ng-if="targetHeader.space")
       label Space:
@@ -26,14 +36,3 @@
          ul(aria-labelledby='spaceDropdown', role='menu' target-selector-dropdown).dropdown-menu.dropdown-menu-right.animated.fadeInUpShort
             li(ng-repeat='space in targetSpace.available')
                a(ng-click='targetSpace.set(space, $event)') {{ space.name }}
-
-   .group-section(ng-if="targetHeader.org")
-      label Organization:
-      .btn-group(uib-dropdown='' is-open='organization.listIsOpen')
-         button.btn.btn-default.org-button(type='button', uib-dropdown-toggle="", ng-disabled="!organization.available.length")
-            | {{ organization.selected.name }}
-            span.caret
-
-         ul.dropdown-menu.dropdown-menu-right.animated.fadeInUpShort(role='menu', target-selector-dropdown)
-            li(ng-repeat='org in organization.available')
-               a(ng-click='organization.set(org, $event)') {{ org.name }}

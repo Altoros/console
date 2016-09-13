@@ -38,20 +38,20 @@
 }
 
 .btn-default {
-  background-color: $dark-one !important;
+  background-color: #7DC5C7 !important;
   color: #F1EEF2 !important;
-  border: 1px solid #22252f !important;
+  border: 1px solid #7DC5C7 !important;
 
   &:hover, &:active {
-    background-color: darken($btn-primary-color, 25%) !important;
-    border: 1px solid darken($btn-primary-color, 25%) !important;
+    background-color: #7DC5C7 !important;
+    border: 1px solid #7DC5C7 !important;
   }
 }
 
 select.form-control,
 input.form-control {
-  color: $light;
-  background-color: #576079;
+  color: #629A9C;
+  background-color: #f7f7f7;
   border: 1px solid white;
   border-radius: 0;
 }

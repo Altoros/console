@@ -35,7 +35,7 @@ $header-item-active: $header-item;
       line-height: $header-height;
 
       > img {
-        margin-left: 20px;
+        margin-left: 5px;
         max-height: 45px;
         display: inline-block;
         vertical-align: middle;
@@ -128,6 +128,7 @@ $header-item-active: $header-item;
 }
 
 target-selector {
+  background-color: $dark-one;
   height: $header-org-space-height;
   width: 100%;
   display: block;
@@ -146,6 +147,7 @@ target-selector {
       }
 
       label {
+        color: #31353D;
         line-height: $header-org-space-height;
         height: $header-org-space-height;
         padding: 0px;

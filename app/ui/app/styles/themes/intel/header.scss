@@ -15,7 +15,7 @@
  */
 .navbar {
   background-color: $header-background-color;
-  border-bottom: 1px solid #2F3139;
+  border-bottom: 1px solid #E5E5E5;
 
   .navbar-header {
     background-color: transparent;
@@ -32,13 +32,15 @@
   .navbar-nav {
     > li {
       color: $header-user-email-color;
+      font-size: medium;
+      font-weight: 500;
 
       > a {
         color: $header-item;
 
         &:hover, &:focus {
           background-color:#F7F7F7;
-          color: #000;
+          color: #214C48;
         }
       }
     }
@@ -46,14 +48,14 @@
 }
 
 target-selector {
-  background-color: $header-org-space-bg-color;
+  background-color: $dark-one;
 
   .target-container {
 
     .group-section {
 
       label {
-        color: $header-org-space-text-label-color;
+        color: #31353D;
       }
 
       .btn-group {

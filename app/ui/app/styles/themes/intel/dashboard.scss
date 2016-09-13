@@ -31,10 +31,10 @@ $dashboard-red: #DD1031;
   }
 
   .widget {
-    background-color: #322845 !important;
-    
+    background-color: #57CBC0 !important;
+
     &.panel.tile-chart {
-      background-color: $dark-one !important;
+      background-color: #f1f1f1 !important;
     }
 
     &.blue-tile {
@@ -44,14 +44,15 @@ $dashboard-red: #DD1031;
 
       .text {
         font-size: 24px;
+        font-weight: 500;
       }
 
       .number {
         text-align: right;
         width: 1px;
         white-space: nowrap;
-        color: #DCABFC;
-        font-size: 38px;
+        color: #f7f7f7;
+        font-size: 40px;
         font-weight: 400;
       }
     }
@@ -62,22 +63,24 @@ $dashboard-red: #DD1031;
       .number {
         font-size: 40px;
         font-weight: normal;
-        color: #DCABFC;
+        color: #f7f7f7;
         letter-spacing: -1px;
+        background-color: #57CBC0;
       }
 
       .text {
         font-size: 24px;
         color: #F7F7F7;
         font-weight: inherit;
+        background-color: #57CBC0;
       }
     }
 
     &.tile-chart {
 
       .title {
-        color: #F7F7F7;
-        font-size: 18px;
+        color: #214C48;
+        font-size: 24px;
         font-weight: inherit;
       }
     }
@@ -117,7 +120,7 @@ $dashboard-red: #DD1031;
     }
 
     .progress {
-      background-color: $dark-two;
+      background-color: #B4EEE5;
     }
 
   }
@@ -143,9 +146,9 @@ $dashboard-red: #DD1031;
     }
   }
   .dashboard-pink {
-    color: #DCABFC;
+    color: #f7f7f7;
     .progress-bar {
-      background-color: #DCABFC;
+      background-color: #3A8780;
     }
   }
 }

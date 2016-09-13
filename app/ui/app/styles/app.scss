@@ -27,7 +27,7 @@
 @import "main/sidebar";
 @import "main/spinner";
 
-@import "themes/intel/intel-theme";
+@import "themes/intel/intel-theme" ;
 
 @import "../applications/applications";
 @import "../tools/tools";
@@ -44,7 +44,7 @@
 
 .icon-speedometer:before {
   content: "\e007";
-  color: #DCABFC;
+  color: #F7F7F7;
 }
 
 @media screen and (max-width: 768px) {

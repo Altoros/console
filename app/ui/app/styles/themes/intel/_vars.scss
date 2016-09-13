@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-$dark-one: #232360;
+$dark-one: #f4f4f4;
 $dark-two: #576079;
 $light: #F7F7F7;
 $purple: #9F93DC;
@@ -23,28 +23,28 @@ $cyan: #259FD9;
 $intel-blue: $cyan;
 $body-background-color: $dark-one;
 
-$sidebar-item-color-active: #DCABFC;
+$sidebar-item-color-active: #F7F7F7;
 $sidebar-item-bg-hover: $dark-one;
-$sidebar-bg-active: #5E3A7D;
+$sidebar-bg-active: #40968E;
 $sidebar-bg-expand: $dark-one;
-$text-color: lighten($dark-two, 40%);
+$text-color: #31353D;
 $icon-color: lighten($dark-two, 40%);
 $font-family: 'Intel Clear W';
 
 $text-color-blue: $cyan;
 
-$header-background-color: #5E3A7D;
-$header-item: $light;
+$header-background-color: #f4f4f4;
+$header-item: #214C48;
 $header-item-active-color: $cyan;
-$header-item-border: #F1EEF2;
-$header-user-email-color: #DCABFC;
+$header-item-border: #E5E5E5;
+$header-user-email-color: #214C48;
 
 $header-org-space-bg-color: $dark-one;
 $header-org-space-text-label-color: #DCABFC;
 $header-org-space-button-bg-color: $dark-two;
 $header-org-space-button-text-color: $light;
 
-$sidebar-bg: $light;
+$sidebar-bg: #445878;
 $sidebar-open-bg: $sidebar-bg;
 $sidebar-item-color: lighten($dark-two, 40%);
 $sidebar-item-bg-active: $sidebar-bg-active;
