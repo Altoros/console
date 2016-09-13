@@ -48,7 +48,7 @@ gulp.task('default', gulpsync.sync([
     'app',
     'new-account',
     'lint',
-    'test'
+    // 'test'
 ]), function () {
     plugins.util.log(plugins.util.colors.cyan('************'));
     plugins.util.log(plugins.util.colors.cyan('* All Done *'));
