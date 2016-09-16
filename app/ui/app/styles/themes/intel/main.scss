@@ -111,12 +111,13 @@ h4 {
   }
 }
 
-.table .table {
-  color: $light;
-  background-color: $dark-one;
+.table {
+  color: #31353D !important;
+  background-color: #c9e8e2;
 
   thead > tr > th {
     border-color: lighten($dark-one, 10%);
+    background-color: #57CbC0 !important;
   }
 
   thead > tr > th.sortable.sort-desc,
@@ -130,11 +131,12 @@ h4 {
     border-color: $light transparent;
   }
 
-  tbody > tr:nth-child(odd) {
-    background-color: lighten($dark-one, 10%);
-  }
+  // tbody > tr:nth-child(odd) {
+  //   background-color: lighten($dark-one, 10%);
+  // }
 
   .table > tbody > tr > td {
+    background-color: #c9e8e2;
     border-bottom: 1px solid lighten($dark-one, 10%);
     border-top: 1px solid lighten($dark-one, 10%);
   }
