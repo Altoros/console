@@ -146,6 +146,7 @@
   .items-count {
     flex: 1 100%;
     margin: 0 10px;
+    color: #31353d !important;
   }
 }
 
@@ -166,6 +167,7 @@
 
   p.description {
     padding-left: 170px;
+    color: #31353d !important;
   }
 
   .placeholder {
@@ -362,6 +364,11 @@
 .vertical-tabs {
   list-style: none;
   padding: 0;
+
+  > div
+    > ul {
+      background-color: #c9e8e2 !important;
+    }
 
   > li {
     display: block;
