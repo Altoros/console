@@ -146,6 +146,7 @@
   .items-count {
     flex: 1 100%;
     margin: 0 10px;
+    color: #31353d !important;
   }
 }
 
@@ -166,6 +167,7 @@
 
   p.description {
     padding-left: 170px;
+    color: #31353d !important;
   }
 
   .placeholder {
@@ -296,7 +298,11 @@
   }
 
   .instances {
-
+    .panel-default {
+      > .panel-heading {
+        background-color: #EBEBEB !important;
+      }
+    }
     padding: 25px 30px;
 
     &.pull-right {
@@ -362,6 +368,11 @@
 .vertical-tabs {
   list-style: none;
   padding: 0;
+
+  > div
+    > ul {
+      background-color: #c9e8e2 !important;
+    }
 
   > li {
     display: block;
@@ -449,6 +460,7 @@
       margin-left: 80px;
 
       > .name {
+        color: #31353D !important;
         font-size: 20px;
         font-weight: 400;
         margin-bottom: 6px;

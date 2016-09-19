@@ -25,7 +25,7 @@ $tab-color: $dark-one;
       background-color: $tab-color;
       border: none;
       border-radius: 0;
-      color: $cyan;
+      color: #40968E;
       font-size: 24px;
       font-weight: lighter;
       padding-left: 50px;
@@ -42,9 +42,9 @@ $tab-color: $dark-one;
     }
 
     &.active > a, &.active > a:hover, &.active > a:focus {
-      background-color: $cyan;
+      background-color: #40968E;
       border: none;
-      color: $tab-color;
+      color: #f4f4f4;
       cursor: default;
     }
   }

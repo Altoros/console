@@ -46,7 +46,7 @@
                     show: false
                 },
                 color: {
-                    pattern: ['#9F93DC', '#259FD9']
+                    pattern: ['#57CBC0', '#259FD9']
                 }
             };
         }
