@@ -70,6 +70,9 @@
 .content .org-title {
   padding-bottom: 30px;
   word-wrap: break-word;
+  span {
+    border-bottom-color: $sidebar-bg-active;
+  }
 }
 
 .buttons {
@@ -101,8 +104,19 @@
   word-wrap: break-word;
 }
 
-.nav.nav-pills > li.active > a {
-  background-color: $btn-primary-color;
+.nav.nav-pills {
+  & > li.active > a {
+    background-color: $content-pills-bg;
+    color: #fff;
+  }
+
+  & > li > a {
+    color: $text-color;
+  }
+}
+
+.nav.nav-tabs > li.active > a{
+  background-color: $sidebar-bg-active;
 }
 
 .list-group .list-group-item {
@@ -112,9 +126,16 @@
 .space-list {
   margin-bottom: 20px;
 
+  .list-group-item:last-child {
+    background-color: $content-pills-bg !important;
+    border-color: $content-pills-border;
+  }
+
   .space-list-item {
     word-break: break-word;
     padding-right: 30px;
+    background-color: $content-pills-bg !important;
+    border-color: $content-pills-border;
     a {
       position: absolute;
       right: 10px;
