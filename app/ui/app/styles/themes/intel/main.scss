@@ -28,7 +28,7 @@ body {
 }
 
 a, a:active, a:hover {
-  color: $purple;
+  color: #000;
 }
 
 h4 {
@@ -74,7 +74,7 @@ h4 {
   border: 0px solid $dark-one;
   border-radius: 0;
   box-shadow: 0 0 rgba(32, 32, 32, 0.1);
-  color: $text-color-gray;
+  color: $text-color;
 
   .c3 line, .c3 path.domain, .c3 text {
     stroke: lighten(#2e3138, 40%) !important;
