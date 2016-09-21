@@ -36,3 +36,7 @@
          ul(aria-labelledby='spaceDropdown', role='menu' target-selector-dropdown).dropdown-menu.dropdown-menu-right.animated.fadeInUpShort
             li(ng-repeat='space in targetSpace.available')
                a(ng-click='targetSpace.set(space, $event)') {{ space.name }}
+
+   .group-section.logs-and-metrics(ng-if="targetHeader.space")
+      a(ng-click='openLogs()') Logs
+      a(ng-click='openMetrics()') Metrics
