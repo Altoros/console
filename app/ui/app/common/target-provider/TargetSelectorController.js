@@ -77,7 +77,7 @@
 
         $scope.openLogs = function() {
             var visualizations = $scope.platformInfo.external_tools.visualizations,
-                logsItem       = _.find(visualizations, function(item) { return item.name === "logs"; } );
+                logsItem       = _.find(visualizations, function(item) { return item.name === "logs"; } ),
                 org            = targetProvider.getOrganization().name,
                 space          = targetProvider.getSpace().name,
                 url            = logsItem.url + "/app/kibana#/discover?_g=" +
@@ -108,13 +108,13 @@
                             "interval:auto," +
                             "query:(query_string:(analyze_wildcard:!t,query:'*'))," +
                             "sort:!('@timestamp',desc)" +
-                        ")"
+                        ")";
             window.open(url);
         };
 
         $scope.openMetrics = function() {
             var visualizations = $scope.platformInfo.external_tools.visualizations,
-                metricsItem    = _.find(visualizations, function(item) { return item.name === "space-metrics"; } );
+                metricsItem    = _.find(visualizations, function(item) { return item.name === "apps-metrics"; } ),
                 org            = targetProvider.getOrganization().name,
                 space          = targetProvider.getSpace().name,
                 url            = metricsItem.url;
