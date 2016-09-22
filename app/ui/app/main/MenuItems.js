@@ -146,11 +146,11 @@
             "text": "Logs",
             "icon": "icon-book-open",
             "external": "logs",
-        } //,
-        // {
-        //     "text": "Event Log",
-        //     "sref": "app.latestevents",
-        //     "icon": "icon-book-open"
-        // }
+        },
+        {
+            "text": "System metrics",
+            "icon": "icon-graph",
+            "external": "system-metrics",
+        }
     ]);
 })();
