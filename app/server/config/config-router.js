@@ -20,12 +20,12 @@ var express = require('express'),
 var configRouter = function() {
     var router = express.Router();
     router.get('/session', function(req, res) {
-            res.send(config.get("SESSION_CONFIG"));
+            res.send(JSON.stringify(config.get("SESSION_CONFIG")));
         }
     );
 
     router.get('/uploader', function(req, res) {
-            res.send(config.get("UPLOADER_CONFIG"));
+            res.send(JSON.stringify(config.get("UPLOADER_CONFIG")));
         }
     );
     return router;
