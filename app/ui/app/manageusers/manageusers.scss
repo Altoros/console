@@ -144,7 +144,7 @@
   }
 
   .new-space-form > input {
-    color: $light;
+    color: darken($dark-one, 50%);
     background-color: lighten($dark-one, 5%);
     border: 1px solid darken($dark-one, 50%);
     border-radius: 0;
